@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="header_container">
+    <a id="linktotop"></a>
+      <div id="header">
+        <div class="left_head">
+          <h1 class="header_h1">Bartlomiej Szywala</h1>
+          <h3 class="header_h2"><img class="logo" src="img/logo.svg" alt="logo">web developer</h3>
+        </div>
+          <nav class="menu">
+            <a href="#linktotop">home</a>
+            <a href="#linktoprojects">projects</a>
+            <a href="#linktocontacts" >contact</a>
+          </nav>
+          <nav class="site_nav">
+            <button class="site_menu_trigger">menu</button>
+            <div class="site_menu">
+              <ul>
+                <li><a href="#linktotop">home</a></li>
+                <li><a href="#linktoprojects">projects</a></li>
+                <li><a href="#linktocontacts" >contact</a></li>
+              </ul>
+            </div>  
+          </nav>    
+      </div>
+      <div class="bg"></div>
+    </header>
+    <main>
+      <section class="upper">
+        <div class="container">
+          <h2>Full Stack Web Developer</h2>
+          <p>This is a placeholder for a longer text in the future</p>
+        </div>
+      </section>
+      <section class="projects">
+        <h2 class="projects_h2"><a id="linktoprojects">Featured Work</a></h2>
+          <ul class="project_list">
+            <li>
+              <div class="project">
+                <picture>
+                  <source srcset="img/wolf-small.jpg 300w,
+                  img/wolf-medium.jpg 600w,
+                  img/wolf-large.jpg 1000w" type="image/jpg" 
+                                            sizes="(max-width: 800px) 80vw, 30vw">
+                  <img src="img/wolf.jpg" alt="project image">
+                </picture>
+                <h2 class="project_title">Project1</h2>
+                <p>project description<p>
+              </div>
+            </li>
+            <li>
+              <div class="project">
+                <picture>
+                <source srcset="img/swine-small.jpg 300w,
+                  img/swine-medium.jpg 600w,
+                  img/swine-large.jpg 1000w" type="image/jpg"
+                                            sizes="(max-width: 800px) 80vw, 30vw">
+                  <img src="img/swine.jpg" alt="project image">
+                  </picture>
+                <h2 class="project_title">Project2</h2>
+                <p>project description<p>
+              </div>
+            </li>
+            <li>
+              <div class="project">
+                <picture>
+                  <source srcset="img/city-small.jpg 300w,
+                    img/city-medium.jpg 600w,
+                    img/city-large.jpg 1000w" type="image/jpg"
+                                            sizes="(max-width: 800px) 80vw, 30vw">
+                  <img src="img/city.jpg" alt="project image">
+                </picture>
+                <h2 class="project_title">Project3</h2>
+                <p>project desctiption</p>
+              </div>
+            </li>
+          </ul>
+      </section>
+      <section class="contacts">
+        <a id="linktocontacts"></a>
+        <h3>Contact details</h3>
+        <ul class="contact_list">
+          <li class="row">Bartlomiej Szywala</li>
+          <li class="row">email adress</li>
+          <li class="row">adress line 1</li>
+          <li class="row">adress line 1</li>
+          <li class="row">Tel: 000000000</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
